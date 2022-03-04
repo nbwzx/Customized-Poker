@@ -45,9 +45,9 @@
 \setCJKmonofont {KaiTi}
 \newlength\cardheight
 \newlength\cardwidth
-\setlength\cardheight{12.7cm}%0.6\textheight}%13.2-1.5+1=12.7
+\setlength\cardheight{12.7cm}%0.6\textheight}%13.2-0.5=12.7
 \setlength\cardwidth{9.45cm}%0.56\textwidth}
-
+% Standard poker-size: 6.3 cm x 8.8 cm
 \newcommand\card[9]{%
 \begingroup\fboxsep=5mm%
 \fbox{
@@ -57,25 +57,20 @@
 \hspace{0.5mm}\fontsize{9.48mm}{0.5mm}\scalebox{1.45}[1.65]{\Tahoma{#1}}%
 \vspace{0.2cm}\newline
 \fontsize{9.48mm}{0.5mm}{\scalebox{1.15}[1.3]{#2}}%
-\newline
-\vspace{-3cm}
-\newline
+\vspace{-2.5cm}\newline
 \centerline{\fontsize{9.48mm}{0.5mm}\ \ \heiti #3}
 \vspace{0.2cm}\newline
 \hspace{-8mm}\centerline{\Large \Tahoma #4}
-\newline
-\vspace{1.2cm}\newline
+\vspace{0.5cm}\newline
 \centerline{\includegraphics[width=0.6\cardwidth]  {#5}}
-\newline
-\vspace{0.5cm}
-\newline
+\vspace{0.3cm}\newline
 \centerline{\fontsize{4.83mm}{0.5mm}{\texttt{#6} }}
-\newline\newline
+\vspace{0.1cm}\newline
 \centerline{\fontsize{4.83mm}{0.5mm}{\kaishu #7}}
 \vspace{-0.8cm}
 \vfill{%
 \rightline{\begin{sideways} \begin{sideways}\fontsize{9.48mm}{0.5mm}\scalebox{1.15}[1.15]{#2}  \end{sideways}\end{sideways}}
-\vspace{0.1cm}
+\vspace{0.3cm}
 #8 \hfill{ \begin{sideways} \begin{sideways}\hspace{0.5mm}\fontsize{9.48mm}{0.5mm}\scalebox{1.45}[1.65]{\Tahoma{#1}}  \end{sideways}\end{sideways}}
 \newline
 \vspace{-0.2cm}
@@ -105,12 +100,13 @@
 \cardfull{\color{red}\ccs{A}}{{\color{red}\ccs{\{}}}{王维克\ }{Weike Wang}{WeikeWang-removebg-preview.png}{关起门来捉老鼠}{ \Large{$f(\partial \Omega)=\partial \Omega \Rightarrow \exists f(x)=x$}}{wkwang@sjtu.edu.cn}{1mm}
 
 % % This is used to test for symmetry.
+% % Comment out the code "\clearpage" when using.
 % \centering
-% \cardfull{\color{red}\ccs{3}}{{\color{red}\ccs{\{}}}{吴耀琨\ }{Yaokun Wu}{YaokunWu-removebg-preview.png}{这才是真正的数学}{ \Large{$\operatorname{det} L_{I}=f_{D}(I)$}}{wyk@sjtu.edu.cn}{1mm}
-% \hspace{-5.3cm}
+% \cardfull{\ccs{Q}}{{\ccs{\}}}}{李亚纯\ }{Yachun Li}{YachunLi-removebg-preview.png}{“简述二维Harnack不等式并证明”}{ \large{$u(x) \leq \frac{R^{n-2}(R+|x|)}{(R-|x|)^{n-1}} u(0)$}}{ycli@sjtu.edu.cn}{1mm}
+% \hspace{-1.25cm}
 % \vspace{-13.75cm}\newline
 % \begin{sideways} \begin{sideways}
-%     \cardfull{\color{red}\ccs{3}}{{\color{red}\ccs{\{}}}{吴耀琨\ }{Yaokun Wu}{YaokunWu-removebg-preview.png}{这才是真正的数学}{ \Large{$\operatorname{det} L_{I}=f_{D}(I)$}}{wyk@sjtu.edu.cn}{1mm}
+%     \cardfull{\ccs{Q}}{{\ccs{\}}}}{李亚纯\ }{Yachun Li}{YachunLi-removebg-preview.png}{“简述二维Harnack不等式并证明”}{ \large{$u(x) \leq \frac{R^{n-2}(R+|x|)}{(R-|x|)^{n-1}} u(0)$}}{ycli@sjtu.edu.cn}{1mm}
 % \end{sideways}\end{sideways}
 
 \end{document}

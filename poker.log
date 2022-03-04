@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.20)  4 MAR 2022 16:38
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.20)  4 MAR 2022 21:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1365,44 +1365,44 @@ Package fontspec Info: Font family '黑体(0)' created for font '黑体' with op
 (fontspec)             <->"黑体/OT:script=hani;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
-LaTeX Font Info:    Trying to load font information for T1+fav on input line 98.
+LaTeX Font Info:    Trying to load font information for T1+fav on input line 93.
 (c:/texlive/2021/texmf-dist/tex/latex/arev/t1fav.fd
 File: t1fav.fd 2006/05/30 Fontinst v1.929 font definitions for T1/fav.
 ) (./poker.aux)
 \openout1 = `poker.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 98.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 98.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 93.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 93.
  (c:/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 98.
-LaTeX Font Info:    Trying to load font information for T3+cmr on input line 98.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 93.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 93.
  (c:/texlive/2021/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 98.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 98.
-LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 98.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 93.
+LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 93.
  (c:/texlive/2021/texmf-dist/tex/latex/mathdesign/mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    ... okay on input line 93.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1454,7 +1454,7 @@ Package fontspec Info: Could not resolve font "KaiTi/B" (it probably doesn't
 Package fontspec Info: Could not resolve font "KaiTi/I" (it probably doesn't
 (fontspec)             exist).
 
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 99.
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 94.
 (c:/texlive/2021/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
@@ -1492,133 +1492,98 @@ Package fontspec Info: Font family '楷体(0)' created for font '楷体' with op
 (fontspec)             <->"楷体/OT:script=hani;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
-LaTeX Font Info:    Trying to load font information for OT1+zavm on input line 99.
+LaTeX Font Info:    Trying to load font information for OT1+zavm on input line 94.
  (c:/texlive/2021/texmf-dist/tex/latex/arev/ot1zavm.fd
 File: ot1zavm.fd 2006/05/30 Fontinst v1.929 font definitions for OT1/zavm.
 )
-LaTeX Font Info:    Trying to load font information for OML+zavm on input line 99.
+LaTeX Font Info:    Trying to load font information for OML+zavm on input line 94.
  (c:/texlive/2021/texmf-dist/tex/latex/arev/omlzavm.fd
 File: omlzavm.fd 2006/05/30 Fontinst v1.929 font definitions for OML/zavm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+zavm on input line 99.
+LaTeX Font Info:    Trying to load font information for OMS+zavm on input line 94.
  (c:/texlive/2021/texmf-dist/tex/latex/arev/omszavm.fd
 File: omszavm.fd 2006/05/30 Fontinst v1.929 font definitions for OMS/zavm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+mdbch on input line 99.
+LaTeX Font Info:    Trying to load font information for OMX+mdbch on input line 94.
  (c:/texlive/2021/texmf-dist/tex/latex/mathdesign/mdbch/omxmdbch.fd
 File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
 )
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 13.82408pt on input line 99.
+(Font)              scaled to size 13.82408pt on input line 94.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 99.
+(Font)              scaled to size 9.60007pt on input line 94.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 99.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 99.
+(Font)              scaled to size 7.68005pt on input line 94.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 94.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 99.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 94.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for MDA+mdbch on input line 99.
+LaTeX Font Info:    Trying to load font information for MDA+mdbch on input line 94.
  (c:/texlive/2021/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 13.82408pt on input line 99.
+(Font)              scaled to size 13.82408pt on input line 94.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 9.60007pt on input line 99.
+(Font)              scaled to size 9.60007pt on input line 94.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 7.68005pt on input line 99.
-LaTeX Font Info:    Trying to load font information for U+zavm on input line 99.
+(Font)              scaled to size 7.68005pt on input line 94.
+LaTeX Font Info:    Trying to load font information for U+zavm on input line 94.
  (c:/texlive/2021/texmf-dist/tex/latex/arev/uzavm.fd
 File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
-
- []
-
-[1
+) [1
 
 ]
 File: XiaodongZhang-removebg-preview.png Graphic file (type bmp)
 <XiaodongZhang-removebg-preview.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
-
- []
-
-[2
+ [2
 
 ]
 File: YuangShi-removebg-preview.png Graphic file (type bmp)
 <YuangShi-removebg-preview.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
-
- []
-
-[3
+ [3
 
 ]
 File: YachunLi-removebg-preview.png Graphic file (type bmp)
 <YachunLi-removebg-preview.png>
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 102.
+(Font)              scaled to size 11.52008pt on input line 97.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 8.64006pt on input line 102.
+(Font)              scaled to size 8.64006pt on input line 97.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 102.
+(Font)              scaled to size 6.72005pt on input line 97.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 11.52008pt on input line 102.
+(Font)              scaled to size 11.52008pt on input line 97.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 8.64006pt on input line 102.
+(Font)              scaled to size 8.64006pt on input line 97.
 LaTeX Font Info:    Font shape `MDA/mdbch/b/n' will be
-(Font)              scaled to size 6.72005pt on input line 102.
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
-
- []
-
-[4
+(Font)              scaled to size 6.72005pt on input line 97.
+ [4
 
 ]
 File: DongHan-removebg-preview.png Graphic file (type bmp)
 <DongHan-removebg-preview.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-
- []
-
-[5
+ [5
 
 ]
 File: QiZhou-removebg-preview.png Graphic file (type bmp)
 <QiZhou-removebg-preview.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
-
- []
-
-[6
+ [6
 
 ]
 File: WeikeWang-removebg-preview.png Graphic file (type bmp)
 <WeikeWang-removebg-preview.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
-
- []
-
-[7
+ [7
 
 ] (./poker.aux) ) 
 Here is how much of TeX's memory you used:
  31770 strings out of 476476
  698484 string characters out of 5817845
- 1083578 words of memory out of 5000000
+ 1083582 words of memory out of 5000000
  51578 multiletter control sequences out of 15000+600000
  466445 words of font info for 137 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
