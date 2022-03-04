@@ -14,5 +14,5 @@ Welcome to join me!
 
 # Appearance
 <center class = "half">
-<img src = "https://github.com/nbwzx/Customized-Poker/blob/main/wwk.png"  width = "48%" align = left><img src = "https://github.com/nbwzx/Customized-Poker/blob/main/zq.png"  width = "48%" align = right>
+<img src = "https://github.com/nbwzx/Customized-Poker/blob/main/wwk.png"  width = "40%" align = left><img src = "https://github.com/nbwzx/Customized-Poker/blob/main/zq.png"  width = "40%" align = right>
 </center>
