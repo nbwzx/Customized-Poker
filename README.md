@@ -7,8 +7,10 @@ You can simply use xelatex to compile poker.tex
 
 # Appearance
 <center class = "half">
-<img src = "https://github.com/nbwzx/Customized-Poker/blob/main/wwk.png"  width = "50%" align = left><img src = "https://github.com/nbwzx/Customized-Poker/blob/main/wwk.png"  width = "50%" align = right>
+<img src = "https://github.com/nbwzx/Customized-Poker/blob/main/wwk.png"  width = "40%" align = left><img src = "https://github.com/nbwzx/Customized-Poker/blob/main/zq.png"  width = "40%" align = right>
 </center>
+
+
 
 # License
 MIT License
