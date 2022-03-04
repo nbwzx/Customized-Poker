@@ -10,11 +10,11 @@ You can simply use xelatex to compile poker.tex
 <img src = "https://github.com/nbwzx/Customized-Poker/blob/main/wwk.png"  width = "40%" align = left><img src = "https://github.com/nbwzx/Customized-Poker/blob/main/zq.png"  width = "40%" align = right>
 </center>
 
-
-
+divstyle=float:none;clear:both;
 # License
 MIT License
 # Contributor
 Zixing Wang
 
 Welcome to join me!
+/div
