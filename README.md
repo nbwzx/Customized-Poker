@@ -6,8 +6,9 @@ Customized Poker can be used for commemorating teachers or students by making cu
 You can simply use xelatex to compile poker.tex
 
 # Appearance
-![cover-1](https://github.com/nbwzx/Customized-Poker/blob/main/wwk.png){:height="50%" width="50%"}
-![cover-2](https://github.com/nbwzx/Customized-Poker/blob/main/zq.png){:height="50%" width="50%"}
+<center class = "half">
+<img src = "https://github.com/nbwzx/Customized-Poker/blob/main/wwk.png"  width = "50%" align = left><img src = "https://github.com/nbwzx/Customized-Poker/blob/main/wwk.png"  width = "50%" align = right>
+</center>
 
 # License
 MIT License
