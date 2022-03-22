@@ -8,9 +8,10 @@ You can simply use xelatex to compile poker.tex
 
 # Appearance
 <p align="center">
-<img align = "left" src = "https://github.com/nbwzx/Customized-Poker/blob/main/wwk.png"  width = "40%">
-<img align = "right" src = "https://github.com/nbwzx/Customized-Poker/blob/main/zq.png"  width = "40%">
+<img align = "left" src = "wwk.png"  width = "45%">
+<img align = "right" src = "zq.png"  width = "45%">
 </p>
+<br clear="left"/>
 
 # License
 MIT License
