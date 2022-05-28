@@ -1,0 +1,112 @@
+\documentclass[utf8]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{venturis}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{papersize={12cm,15cm}}%{9.68cm,13.764cm}}
+\geometry{left=0.5cm,right=0.5cm,top=0.5cm,bottom=0.5cm}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{etoc}
+\usepackage{tasks}
+\usepackage{tipa}
+\usepackage{float}
+\usepackage{xparse}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{amsmath, amssymb, bm}
+\usepackage{mathtools}
+\usepackage{physics}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{extarrows}
+\usepackage{xeCJKfntef}
+\usepackage{tikz}
+\usepackage[most]{tcolorbox}
+\usepackage{stackengine}
+\usepackage[calc]{datetime2}
+\usepackage{rotating}
+\usepackage{xcolor}
+\usepackage{color}  
+\usepackage{fontspec}
+\usepackage{pifont}
+\usepackage{arev}
+\usepackage{multicol} 
+\usepackage{xeCJK}
+\setCJKfamilyfont{heiti}{黑体}
+\setCJKfamilyfont{kaishu}{楷体}
+\setCJKfamilyfont{wryh}{微软雅黑}
+\newcommand{\heiti}{\CJKfamily{heiti}}
+\newcommand{\kaishu}{\CJKfamily{kaishu}}
+\newcommand{\wryh}{\CJKfamily{wryh}}
+\newfontfamily\Tahoma{Tahoma}
+\newfontfamily\ccs{Card Characters.ttf}
+\setCJKmonofont {KaiTi}
+\newlength\cardheight
+\newlength\cardwidth
+\setlength\cardheight{12.7cm}%0.6\textheight}%13.2-0.5=12.7
+\setlength\cardwidth{9.45cm}%0.56\textwidth}
+% Standard poker-size: 6.3 cm x 8.8 cm
+\newcommand\card[9]{%
+\begingroup\fboxsep=5mm%
+\fbox{
+\begin{minipage}[t][\cardheight][t]
+{\dimexpr\cardwidth-2\fboxsep-2\fboxrule\relax}%
+\vspace{0.2cm}
+\hspace{0.5mm}\fontsize{9.48mm}{0.5mm}\scalebox{1.45}[1.65]{\Tahoma{#1}}%
+\vspace{0.2cm}\newline
+\fontsize{9.48mm}{0.5mm}{\scalebox{1.15}[1.3]{#2}}%
+\vspace{-2.5cm}\newline
+\centerline{\fontsize{9.48mm}{0.5mm}\ \ \heiti #3}
+\vspace{0.2cm}\newline
+\hspace{-8mm}\centerline{\Large \Tahoma #4}
+\vspace{0.5cm}\newline
+\centerline{\includegraphics[width=0.6\cardwidth]  {#5}}
+\vspace{0.3cm}\newline
+\centerline{\fontsize{4.83mm}{0.5mm}{\texttt{#6} }}
+\vspace{0.1cm}\newline
+\centerline{\fontsize{4.83mm}{0.5mm}{\kaishu #7}}
+\vspace{-0.8cm}
+\vfill{%
+\rightline{\begin{sideways} \begin{sideways}\fontsize{9.48mm}{0.5mm}\scalebox{1.15}[1.15]{#2}  \end{sideways}\end{sideways}}
+\vspace{0.3cm}
+#8 \hfill{ \begin{sideways} \begin{sideways}\hspace{0.5mm}\fontsize{9.48mm}{0.5mm}\scalebox{1.45}[1.65]{\Tahoma{#1}}  \end{sideways}\end{sideways}}
+\newline
+\vspace{-0.2cm}
+}
+\end{minipage}
+}%
+\hspace{0.376mm}%
+\endgroup}%
+
+
+\newcommand\cardfull[9]{
+\card{#1}{#2}{#3}{#4}{#5}{#6}{#7}{#8}{#9}
+\clearpage
+}
+
+\newcommand{\blank}{\hrulefill}
+
+\pagestyle{empty}
+
+\begin{document}
+\cardfull{\color{red}\ccs{3}}{{\color{red}\ccs{\{}}}{吴耀琨\ }{Yaokun Wu}{YaokunWu-removebg-preview.png}{这才是真正的数学}{ \Large{$\operatorname{det} L_{I}=f_{D}(I)$}}{wyk@sjtu.edu.cn}{1mm}
+\cardfull{\color{red}\ccs{8}}{{\color{red}\ccs{\{}}}{张晓东\ }{Xiaodong Zhang}{XiaodongZhang-removebg-preview.png}{\small loxuesor, niss zongber koyer hense chegor}{ \Large{$(x)_n=\sum_{k=0}^n s(n,k)x^k$}}{xiaodong@sjtu.edu.cn}{1mm}
+\cardfull{\color{red}\ccs{K}}{{\color{red}\ccs{\{}}}{石雨昂\ }{Yuang Shi}{YuangShi-removebg-preview.png}{一楼的保安亭是我的}{ \Large{$\int_{\Omega} \mathrm{d} \omega=\int_{\partial \Omega} \omega$}}{yuangshi@sjtu.edu.cn}{1mm}
+\cardfull{\ccs{Q}}{{\ccs{\}}}}{李亚纯\ }{Yachun Li}{YachunLi-removebg-preview.png}{“简述二维Harnack不等式并证明”}{ \large{$u(x) \leq \frac{R^{n-2}(R+|x|)}{(R-|x|)^{n-1}} u(0)$}}{ycli@sjtu.edu.cn}{1mm}
+\cardfull{\color{red}\ccs{=}}{{\color{red}\ccs{\{}}}{韩\ 东\ }{Dong Han}{DongHan-removebg-preview.png}{期末考试比期中简单}{ \Large{$\mathrm{E}X=\mathrm{E}(\mathrm{E}(X|Y))$}}{donghan@sjtu.edu.cn}{1mm}
+\cardfull{\color{black}\ccs{K}}{{\color{black}\ccs{\}}}}{周颀\ }{Qi Zhou}{QiZhou-removebg-preview.png}{一楼的保安亭给石雨昂}{ \Large{$E=\frac{\pi^{\frac{d}{2}}}{2L^da^{\frac{d}{2}}}\sum\limits_{\boldsymbol{k}}|\rho(\boldsymbol{k})|^2e^{-\frac{|\boldsymbol{k}|^2}{4a}}$}}{zhouqi1729@sjtu.edu.cn}{1mm}
+\cardfull{\color{red}\ccs{A}}{{\color{red}\ccs{\{}}}{王维克\ }{Weike Wang}{WeikeWang-removebg-preview.png}{关起门来捉老鼠}{ \Large{$f(\partial \Omega)=\partial \Omega \Rightarrow \exists f(x)=x$}}{wkwang@sjtu.edu.cn}{1mm}
+
+% % This is used to test for symmetry.
+% % Comment out the code "\clearpage" when using.
+% \centering
+% \cardfull{\ccs{Q}}{{\ccs{\}}}}{李亚纯\ }{Yachun Li}{YachunLi-removebg-preview.png}{“简述二维Harnack不等式并证明”}{ \large{$u(x) \leq \frac{R^{n-2}(R+|x|)}{(R-|x|)^{n-1}} u(0)$}}{ycli@sjtu.edu.cn}{1mm}
+% \hspace{-1.25cm}
+% \vspace{-13.75cm}\newline
+% \begin{sideways} \begin{sideways}
+%     \cardfull{\ccs{Q}}{{\ccs{\}}}}{李亚纯\ }{Yachun Li}{YachunLi-removebg-preview.png}{“简述二维Harnack不等式并证明”}{ \large{$u(x) \leq \frac{R^{n-2}(R+|x|)}{(R-|x|)^{n-1}} u(0)$}}{ycli@sjtu.edu.cn}{1mm}
+% \end{sideways}\end{sideways}
+
+\end{document}
